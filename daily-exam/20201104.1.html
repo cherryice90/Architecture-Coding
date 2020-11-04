@@ -1,0 +1,143 @@
+<!-- ctrl + / : 현재 줄 주석 처리 또는 해제
+2020.11.04 21:00 시작 -->
+<!-- WEB1 - 10. html이 중요한 이유 -->
+<!-- https://www.youtube.com/watch?v=MgZRbCaF_rY&t=58s -->
+<!-- 시각적으로 제목처럼 보이는 코딩 : 일반인
+검색엔진에 노출되지 않는것! 검색엔진에서 찾을 수 없다
+ex) 이미지로 글씨 표출(검색불가)-->
+<span style="font-size:24px">coding</span>
+<!-- 제목이 코딩인 것 : 지식인
+웹사에서의 정보를 나타낸다 -->
+<h3>coding</h3>
+
+<!-- 웹은 모든 운영체제에서 동작, 웹페이지의 소스코드 접근성이 쉽고
+저작권이 없는 순수한 공공재이다. 그래서 특별한 기술! 개방성!
+accessibility
+정보로부터 소외되지 않는
+시각장애 : 스클리더.. 시각을 청각화 시키는 행,
+비지니스, 휴머니즘에서도 중요한 기술
+-->
+
+
+<!-- 목차같이 보이게 만든다 -->
+1. HTML <br>
+2. CSS <br>
+3. JavaScript
+<br>
+
+<ul>
+<!-- 목차만들기 : 목록 = list -->
+<!-- 순서 -->
+  <li>1. HTML</li>
+  <li>2. CSS</li>
+  <li>3. JavaScript</li>
+</ul>
+
+<!-- <br>로 줄바꿈을 해도되지만
+부모-자식관계인
+<ul>  --------- 부모
+  <li></li> --- 자식
+</ul>  --------- 부모
+를 사용해본다.
+ -->
+<ul>
+<!-- 참여자 -->
+  <li>jisoo</li>
+  <li>yunie</li>
+  <li>susu</li>
+</ul>
+<!-- 범위 잡고 tab키 누르면 뒤로 밀림 -->
+
+<!-- 속성 : 태그의 심화된 문법  -->
+<!-- WEB1 - 10. html이 중요한 이유 -->
+<!-- https://www.youtube.com/watch?v=MgZRbCaF_rY&t=58s -->
+<h1>HTML</h1>
+
+1. Hypertext Markup Language (HTML) is the standard markup Language
+for creating web pages and web applications.
+<!-- <br> -->
+<!-- https://www.youtube.com/watch?v=QoQsaUWx3EU&t=3s
+tag 배우기 : creating webpages 진하게 하기 : <strong> </strong> -->
+2. Hypertext Markup Language (HTML) is the standard markup Language
+for <strong> creating web pages </strong> and web applications.
+<!-- <br> -->
+<!-- tag 배우기 : under line 믿줄그리기 : <u> </u>-->
+3. Hypertext Markup Language (HTML) is the standard markup Language
+for <strong> creating <u>web</u> pages </strong> and web applications.
+<br>
+
+<!-- 태그의 이름만으로는 정보가 부족해 그림을 넣을수 없음 -->
+<!-- <img> -->
+<!-- src = source의 약자 : 원하는 이미지의 주소를 입력하면
+웹브라우저는 입력한 주소를 지정한 위치에 이미지로서 표현해준다-->
+<!-- https://unsplash.com/ : 저작권에 구애받지않는 이미지 : 공공-->
+<img src="coding.jpg" width="50%">
+<!-- src="coding.jpg" width="100%" : 이것을 속성이라 한다 = attribute
+위치는 상관없음. 태그의 이름만으로 이미지를 사용할수없어서 속성을 부여하여
+사용할수있게끔 만든다.
+-->
+<br>
+Element. An HTML element is defined by a starting tag. If the element contains other content, it ends with a closing tag.
+<br>
+For example,<p> is starting tag of a paragraph and </p> is closing tag of the same paragraph but <p>This is paragraph</p> is a paragraph element.
+<!-- css 여백을 나타내는 코드가 있음
+<p style = "margin-top:40px;" ></p>
+여백과 여백 값이 윗방향으로 40픽셀만큼 띄워놓는다.
+ -->
+ <p style = "margin-top:40px;" >interactive forms</p>
+
+
+
+ <!-- WEB1 - 12. 부모자식과 목록  : 목차만들기 -->
+ <!-- https://www.youtube.com/watch?v=aUtnyev_1vg -->
+ <!-- 자식있는 곳에 부모/부모가 있는곳에 자식이 있듯이 특정한 태그들이있다. -->
+<!-- <parent>
+  <child></child>
+</parent>
+
+부모-자식관계인
+<ul>  --------- 부모
+  <li></li> --- 자식
+</ul>  --------- 부모
+를 사용해본다.
+-->
+
+
+<!-- 코딩을 공부할때, 극단적인 사고가 필요함
+행복할땐 안함, 충분히 불행할때,
+목록이 1.2.3 이 아니라
+1억번 이상일때 1을 지우고 2,3 만이 남겨지면
+다시 순서를 매길때
+ -->
+
+ <!-- 부모-자식관계인
+ <ol>  --------- 부모
+   <li></li> --- 자식
+ </ol>  --------- 부모
+ 를 사용해본다. -->
+<!--
+<ol> 태그 = ordered list: 데이터의 순서를 자동적으로 매겨줌
+<ul> 태그 = unordered list: 데이터의 순서를 매겨주지않음
+ -->
+<!-- 2대의 부모 - 자식 관계  -->
+ <ol>
+   <li>HTML</li>
+   <li>CSS</li>
+   <li>JavaScript</li>
+ </ol>
+
+<!-- table 은 3대의 부모 - 자식 관계가 성립해야한다. -->
+<table>
+  <tr>
+    <td>head</td>
+    <td>98.1%</td>
+  </tr>
+  <tr>
+    <td>body</td>
+    <td>97.9%</td>
+  </tr>
+  <tr>
+    <td>html</td>
+    <td>97.9%</td>
+  </tr>
+</table>
