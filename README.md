@@ -1,2 +1,2 @@
-# architecure-coding
+# architecture-coding
  the art and practice of designing and making somethings
