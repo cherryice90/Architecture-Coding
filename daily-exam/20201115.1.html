@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!-- every html documents
+this is html, no text file. -->
+<html lang="kr">
+<!-- we are trying to express information about our website to the browser
+    trying to explain as clearly we can be to the browser
+    what is our website.  -->
+<!-- it will help to searching engine as google, naver, bing
+    it gonna help them what uses our language on the website.
+    Website mainly uses korean , english or any other languages-->
+
+<head>
+    <!-- everything(all the tags) put on the head,
+        it will be invisible : browser understand but, invisible -->
+    <meta charset="utf-8" />
+    <!-- it tells how to render the text on the browser
+    sometimes browser doesn't understand when uses another languages
+    so, sometimes you don't use meta tag(charset), browser will be broken.
+    People can't read and see the data on the browser.
+    -->
+    <!-- <title>Home - My first website</title> -->
+    <!-- invisivle tags -->
+    <!-- https://developer.mozilla.org/ko/docs/Web/HTML/Element/meta
+        attributs of meta : (name(key),content(value))
+        http-equiv, charset(Encoding as utf-8),
+    itemprop -->
+    <!-- content : description of the website in google -->
+    <!-- meaning of meta : extra data -->
+    <meta name="description" content="This is yunie's website" />
+    <!-- it is most important tag for me
+    Literary what google looks for title.
+    -->
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    this attributes are for internet explorer
+    -->
+    <link rel="shorcut icon" sizes="16x16 32x32 64x64" href="img/rose.jpg">
+    <!-- the image is  infront of title  -->
+    <!-- invisible tags are configuration of the doucuments
+    how to show my document to people
+    head is very powerful
+    -->
+
+    <!-- open graph protocol : https://ogp.me/
+        : <meta property="og:image" name="yunie's website" content="img/rose.jpg"> -->
+    <!-- og:image : when i share my website on kakaotalk
+    you can see image of the website
+    An image URL which should represent your object within the graph.
+-->
+
+</head>
+
+<body>
+    <!-- everything(all the tags) put on the head,
+        it will be visible : browser understand but, visible
+    as content -->
+    <a href="https://www.google.com/" target="_blank">Go to google</a>
+    <!-- if the name of the file is rose.jpg,
+    I need to write rose.jpg. even I write rose.jpeg,
+    it's not working    -->
+    <!-- <img src="rose.jpg"> -->
+    <!-- then this image file shoud be next to home.html
+    (on the same folder) -->
+    <img src="img/rose.jpg">
+    <!-- path notation : folder/file name -->
+</body>
+
+</html>
