@@ -1,2 +1,2 @@
 # architecture-coding
- the art and practice of designing and making somethings
+practice of making something
